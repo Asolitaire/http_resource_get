@@ -4,6 +4,7 @@
 按url中的path_info自动创建目录
 
 #交叉编译命令(64bit)
+
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build get.go
 
 CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build get.go
